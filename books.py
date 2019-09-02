@@ -14,6 +14,7 @@ import  urllib.request
 
 href_default = "https://walmart.com/browse/books/3920"
 
+
 def Books():
 
     driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -200,7 +201,7 @@ def GetProductsbyCatUrl(url):
     driver_product.get(url)
 
     i = 1
-    while i < 3:
+    while i < 25:
 
         # if i == 2:
         #     break
