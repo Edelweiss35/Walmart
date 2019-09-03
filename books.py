@@ -14,7 +14,6 @@ import  urllib.request
 
 href_default = "https://walmart.com/browse/books/3920"
 
-
 def Books():
 
     driver = webdriver.Chrome(ChromeDriverManager().install())
